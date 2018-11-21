@@ -1,0 +1,68 @@
+div.transoval {
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+	background-image: url("tpbg.png");
+    padding: 10px; 
+    width: 85%;
+  	text-align: left;
+	font-size: 2.5vw;
+	font-family: monospace;
+}
+.btn {
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+	background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20pt;
+	font-weight: bold;
+    text-decoration: none;
+}
+.reset {
+	color: #202020;
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #4040FF;
+}
+.reset:hover {
+	text-shadow: 1px 1px #808080;
+	color: #000000;
+}
+
+.liltxt {
+    color: #404040;
+    font-size: 8pt;
+    text-decoration: none;
+}
+.forminput {
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+	font-size: 1.5vw;
+    font-weight: bold;
+  	width: 7em;
+}
+.forminput.rounded:focus {
+    border-color: #FF8080;
+}
+input[name="phone"] { display:none; }
+#pagetop{
+	width: 98.5%;
+	position: fixed;
+	top: 9px;
+	text-align: center;
+}
+#bottom{
+	width: 98.5%;
+	position: fixed;
+	bottom: 9px;
+	text-align: center;
+}
